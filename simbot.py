@@ -94,6 +94,7 @@ def start():
 		logo()
 		print()
 		ha = input("\033[1;96mNama Kamu: \033[1;92m")
+#Jangan Ubah Link Api Dibawah
 		#https://api.simsimi.net/bg/?text={me}&lc=id (not working)
 		#https://api.simsimi.net/v2/?text={me}&lc=id (working)
 		while True:
