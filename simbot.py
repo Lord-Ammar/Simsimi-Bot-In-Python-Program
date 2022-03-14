@@ -31,6 +31,7 @@ R = Fore.RED
 G = Fore.GREEN
 BL = Fore.BLACK
 
+#Buat Tanya Main Lagi Atau Enggak
 def lagigak():
 	cblg = input("Back Tools? (y/n): ")
 	if cblg == "y" or cblg == "Y":
@@ -43,6 +44,7 @@ def lagigak():
 		time.sleep(2)
 		lagigak()
 
+#Ubah/Ganti Link Disini
 def subs():
 	print ("Subscribe Dulu Biar Afdhol:)")
 	os.system("xdg-open https://bit.ly/AmmarExecuted")
@@ -72,6 +74,7 @@ def tanya():
 	except KeyboardInterrupt:
 		print ("Program Dihentikan")
 
+#Ini Logo Terserah Kalo Mau Ubah
 def logo():
 	print ("""
 \033[1;93m   _  _             \033[1;96m_________.__       __________        __           \033[1;93m  _  _
@@ -87,6 +90,8 @@ def logo():
 	print ("        \033[1;90m•\033[1;97m Your Ip: \033[1;92m"+ip)
 	print ("	\033[1;90m•\033[1;97m Tools Server: \033[1;92m"+server)
 	print ("        \033[1;90m•\033[1;97m Status In Server: \033[1;92m"+Stats)
+
+#Dibagian Ini Jangan Diubah Ngab Nanti Eror
 def start():
 	try:
 		os.system("clear")
