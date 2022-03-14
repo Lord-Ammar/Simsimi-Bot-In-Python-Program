@@ -7,6 +7,7 @@
 import requests,os,sys,time
 from colorama import Fore,Back,init
 
+#Jan Diubah Ini Buat Connect Ke Rest Api Nya:)
 connect = ("Online Server")
 
 ip = requests.get('https://api.ipify.org').text
